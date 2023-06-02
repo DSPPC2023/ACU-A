@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+    crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed|Roboto+Slab" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>GTCoding</title>
+</head>
+
+<body>
+    <div id="slideout-menu">
+        <ul>
+            <li>
+                <a href="index.html">INICIO</a>
+            </li>
+            <li>
+                <a href="blogslist.html">TRANSPARENCIA</a>
+            </li>
+            <li>
+                <a href="blogslist.html">PROYECTOS</a>
+            </li>
+            <li>
+                <a href="about.html">CONTACTO</a>
+            </li>
+            <li>
+                <input type="text" placeholder="Search Here">
+            </li>
+        </ul>
+    </div>
+
+  <nav>
+      <div id="logo-img">
+          <a href="#">
+              <img src="img/logo.png" alt="GTCoding Logo">
+          </a>
+      </div>
+      <div id="menu-icon">
+          <i class="fas fa-bars"></i>
+      </div>
+      <ul>
+        <li>
+            <a class="active" href="index.html">INICIO</a>
+        </li>
+        <li>
+            <a href="blogpost.html">TRANSPARENCIA</a>
+        </li>
+        <li>
+            <a href="blogslist.html">PROYECTOS</a>
+        </li>
+        <li>
+            <a href="about.html">CONTACTO</a>
+        </li>
+        <li>
+            <div id="search-icon">
+                <i class="fas fa-search"></i>
+            </div>
+        </li>
+    </ul>
+  </nav>
+
+  <div id="searchbox">
+      <input type="text" placeholder="Search Here">
+  </div>
+
+  <main>
+
+    <h2 class="page-heading">CONTACTO</h2>
+    <div id="post-container">
+      <section id="blogpost">
+        <div class="card">
+            <div id="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6957.843685609621!2d-100.95192839999999!3d29.313968199999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86f595fb7d51d32b%3A0x320a250b6b4faf17!2sSeguridad%20P%C3%BAblica%20Municipal%20de%20Acu%C3%B1a%2C%20Coahuila.!5e0!3m2!1ses!2smx!4v1683058570675!5m2!1ses!2smx" width="1000" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="card-description" style="text-align:justify;">
+            <h3>SOMOS</h3>
+            <p>La Dirección de Seguridad Pública se enorgullece en ofrecer atención y cuidado a la ciudadanía las 24 horas y los 365 días del año. 
+                Nuestro compromiso es estar siempre disponibles para nuestros usuarios y proveerles la orientación y asistencia necesaria para garantizar su seguridad y bienestar. En nuestra sección "Contáctenos" encontrarás diferentes métodos de contacto para poder comunicarte con nosotros de manera directa y efectiva,
+                incluyendo información de contacto telefónico, correos electrónicos y formularios de contacto en línea. Además, en nuestra sección de preguntas frecuentes, podrás encontrar respuestas a las dudas más comunes, así como horarios de atención al público, para mejorar tu experiencia con nosotros.
+                En la Dirección de Seguridad Pública, ponemos a disposición de la comunidad nuestro compromiso y dedicación para ser una institución confiable y efectiva en situaciones de emergencia. ¡Contáctanos y deja que te demos la atención que mereces!</p>
+                
+          </div>
+        </div>
+
+      </section>
+
+      <aside id="sidebar">
+        <h3 style="color:#ffffff;">COMUNICATE CON NOSOTROS</h3>
+        <form action="ruta_a_tu_script_de_procesamiento" method="POST">
+          <label for="nombre" style="color:#ffffff">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" required>
+          <label for="telefono">Teléfono:</label>
+          <input type="tel" id="telefono" name="telefono" maxlength="10" pattern="[0-9]{10}" oninput="this.value=this.value.replace(/[^0-9]/g,'');" required>
+          <label for="mensaje" style="color:#ffffff;">Mensaje:</label>
+          <textarea id="mensaje" name="mensaje" required></textarea>
+          <button type="submit" style="background-color:#001a2b; color:rgb(255, 255, 255);">Enviar</button>
+        </form>
+      </aside>
+          
+    </div>
+
+    <footer>
+        <div id="left-footer">
+            <h3>Quick Links</h3>
+            <p>
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Privacy Policy</a>
+                    </li>
+                    <li>
+                        <a href="blogslist.html">Blogs</a>
+                    </li>
+                    <li>
+                        <a href="blogslist.html">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </p>
+        </div>
+        <div id="right-footer">
+            <h3>Siguenos en nuestra pagina de facebook.</h3>
+            <div id="social-media-footer">
+                <ul>
+                    <li>
+                        <a href="https://www.facebook.com/profile.php?id=100087632851602">
+                            <i class="fab fa-facebook"></i>
+                          </a>                              
+                    </li>
+                </ul>
+            </div>
+            <p>Ciudad acuña, Coahuila.</p>
+        </div>>
+    </footer>
+
+  </main>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
